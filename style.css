@@ -53,12 +53,6 @@ nav {
     flex-direction: row;
 }
 
-
-
-/* add an instance of a grid to the style.css file
-    add a grid to the main content area of the page
-    */
-
 /* Main content */
 main {
     background-color: #fff;
@@ -66,7 +60,6 @@ main {
     margin: 24pt;
     border-radius: 8px;
     
-
 }
 
 h2 {
@@ -140,9 +133,7 @@ section > h2{
 ul > li {
     color: #3a3939;
 }   
-/* add a attribute selector
-    to the style.css file
-    */
+
 p::first-letter {
     color: #e61717;
     font-size: 2em;
