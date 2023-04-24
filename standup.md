@@ -12,12 +12,6 @@
 - Name 1
 - Name 2
 - Name 3
-- ...
-
-**Apologies:**
-- Name 1
-- Name 2
-- ...
 
 ## Agenda
 
@@ -27,7 +21,6 @@
 
 ## Topic 1
 
-**Presenter:** Name
 
 **Discussion:**
 

@@ -125,7 +125,7 @@ footer {
                          "footer footer footer";
 }
 
-.highlight {
+header.highlight {
     background-color: #f3b2b2;
 }
 a:active{
@@ -155,7 +155,15 @@ p:active, details:active {
 }
 header + h1{
     align-content: end;}
+    
 #text-whiteboard textarea {
+    background-color: #000;
+    color: #fff;
+}
+header ~ h1{
+    align-content: end;
+}
+*header {
     background-color: #000;
     color: #fff;
 }
