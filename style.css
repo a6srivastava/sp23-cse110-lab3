@@ -3,6 +3,13 @@
         margin: 10em;
     }
 }
+@font-face {
+    font-family: "myFont";
+    src: url("myFont.woff2");
+}
+
+
+
 /* Header */
 header {
     padding: 12px;
@@ -15,6 +22,8 @@ header {
     text-decoration: underline;
     position: static;
     font: italic small-caps bold 22px/30px Georgia, serif;
+    max-width: fit-content;
+    min-width: fit-content;
 }
 
 /* Main content */
@@ -28,7 +37,7 @@ body {
     margin: 12em;
     margin-top: 3em;
     margin-bottom: 3em;
-    
+    position: sticky;
 }
 
 /* nav*/
@@ -100,7 +109,7 @@ th {
 footer {
     padding: 20px;
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
     font-size: 0.875rem;
 }
@@ -131,6 +140,13 @@ section > h2{
 ul > li {
     color: #3a3939;
 }   
+/* add a attribute selector
+    to the style.css file
+    */
+p::first-letter {
+    color: #e61717;
+    font-size: 2em;
+}
 p:hover, details:hover {
     color: #61062c;
 }
