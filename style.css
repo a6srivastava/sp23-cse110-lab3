@@ -1,0 +1,145 @@
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10em;
+    }
+}
+/* Header */
+header {
+    padding: 12px;
+    color: #1c013f;
+    text-align: center;
+    border-style: solid;
+    border-color:  rgb(182, 75, 164);
+    border-width: 0.31cm;
+    border-radius: 0cm;
+    text-decoration: underline;
+    position: static;
+    font: italic small-caps bold 22px/30px Georgia, serif;
+}
+
+/* Main content */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #170f27;
+    background-color: #d2fff2;
+    padding: 12px;
+    margin: 12em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+}
+
+/* nav*/
+nav {
+    background-color: #cccacf;
+    
+    border-style: solid;; 
+    border-color: rgb(39, 128, 61);
+    position: static;
+    padding: 1em;
+    height: auto;                         
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* add an instance of a grid to the style.css file
+    add a grid to the main content area of the page
+    */
+
+/* Main content */
+main {
+    background-color: #fff;
+    padding: 24px;
+    margin: 24pt;
+    border-radius: 8px;
+    
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p, ul, ol, table {
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: "header header header"
+                         "nav nav nav"
+                         "main main main"
+                         "footer footer footer";
+}
+
+.highlight {
+    background-color: #f3b2b2;
+}
+a:active{
+    color: #f3b2b2;
+}
+div h3 {
+    background-color: #92b0d8;
+}
+section > h2{
+    color: #e61717;
+}
+ul > li {
+    color: #3a3939;
+}   
+p:hover, details:hover {
+    color: #61062c;
+}
+p:active, details:active {
+    color: #332300;
+}
+header + h1{
+    align-content: end;}
+#text-whiteboard textarea {
+    background-color: #000;
+    color: #fff;
+}
